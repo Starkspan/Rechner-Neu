@@ -1,1 +1,33 @@
-<!DOCTYPE html><html><head><title>Starkspan CNC</title></head><body><h1>Upload erfolgreich!</h1></body></html>
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Starkspan CNC Preisrechner</title>
+</head>
+<body>
+    <h1>STP-Datei Upload</h1>
+    <input type="file" accept=".stp,.step" />
+    <h2>Material</h2>
+    <select>
+        <option>Edelstahl</option>
+        <option>Aluminium</option>
+        <option>Stahl</option>
+        <option>Messing</option>
+    </select>
+    <h2>Oberflächenbehandlung</h2>
+    <input type="checkbox" id="treatment" />
+    <label for="treatment">Ja</label>
+    <br>
+    <select>
+        <option>Keine</option>
+        <option>Härten</option>
+        <option>Vernickeln</option>
+        <option>Eloxieren</option>
+    </select>
+    <h2>Staffelpreise</h2>
+    <p>1 | 5 | 10 | 20 | 50 | 100 | 200 | 300 | 500</p>
+    <h2>Zielpreis pro Stück</h2>
+    <input type="text" placeholder="z.B. 12.50 €" />
+</body>
+</html>
